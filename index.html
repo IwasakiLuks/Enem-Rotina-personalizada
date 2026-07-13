@@ -6,7 +6,7 @@
     <title>🚀 ENEM 2026 - Plataforma Completa</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
-        /* ===== RESET E VARIÁVEIS ===== */
+        /*RESET E VARIÁVEIS*/
         * {
             margin: 0;
             padding: 0;
@@ -37,7 +37,7 @@
             display: flex;
         }
 
-        /* ===== SIDEBAR ===== */
+        /*SIDEBAR*/
         .sidebar {
             width: 80px;
             background: var(--bg-secondary);
@@ -88,7 +88,7 @@
             box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
         }
 
-        /* ===== MAIN ===== */
+        /*MAIN*/
         .main-content {
             flex: 1;
             padding: 30px 40px;
@@ -113,7 +113,7 @@
             }
         }
 
-        /* ===== CARDS E ESTATÍSTICAS ===== */
+        /*cARDS E ESTATÍSTICAS*/
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
@@ -203,7 +203,7 @@
             }
         }
 
-        /* ===== TABELA SEMANAL ===== */
+        /*TABELA SEMANAL*/
         .schedule-table {
             width: 100%;
             border-collapse: collapse;
@@ -268,7 +268,7 @@
             color: #94a3b8;
         }
 
-        /* ===== CHECKLIST ===== */
+        /*CHECKLIST*/
         .checklist-group {
             display: flex;
             flex-wrap: wrap;
@@ -306,7 +306,7 @@
             color: var(--text-secondary);
         }
 
-        /* ===== POMODORO ===== */
+        /*POMODORO*/
         .pomo-circle {
             width: 200px;
             height: 200px;
@@ -367,7 +367,7 @@
             background: #2563eb;
         }
 
-        /* ===== REDAÇÃO E CORRETOR ===== */
+        /*REDAÇÃO E CORRETOR*/
         .theme-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -578,7 +578,7 @@
 </head>
 <body>
 
-    <!-- ===== SIDEBAR ===== -->
+    <!--SIDEBAR2.0-->
     <nav class="sidebar">
         <div class="logo"><i class="fas fa-brain"></i></div>
         <button class="nav-item active" data-page="dashboard"><i class="fas fa-home"></i><span>Início</span></button>
@@ -591,12 +591,12 @@
         <button class="nav-item" data-page="pomodoro"><i class="fas fa-clock"></i><span>Timer</span></button>
     </nav>
 
-    <!-- ===== MAIN ===== -->
+    <!--MAIN-->
     <div class="main-content">
 
-        <!-- ========== DASHBOARD ========== -->
+        <!--DASHBOARD-->
         <div id="page-dashboard" class="page active">
-            <h2 style="margin-bottom:8px;">🚀 Olá, Guerreiro(a)!</h2>
+            <h2 style="margin-bottom:8px;">🚀 Olá, Estudante!</h2>
             <p style="color:var(--text-secondary);margin-bottom:24px;">Plano ENEM 2026 · Meta: <strong style="color:var(--green);">630+</strong> · Ciências Biológicas - UFMT</p>
             <div class="stats-grid" id="statsGrid">
                 <div class="stat-card"><div class="label"><i class="far fa-calendar-alt"></i> Dias para o ENEM</div><div class="value blue" id="daysLeft">122</div><div class="sub">08/11/2026</div></div>
@@ -630,7 +630,7 @@
             </div>
         </div>
 
-        <!-- ========== SEMANAL ========== -->
+        <!--SEMANAL-->
         <div id="page-semanal" class="page">
             <h2 style="margin-bottom:20px;"><i class="fas fa-calendar-week" style="color:var(--blue);"></i> Cronograma Semanal</h2>
             <div class="card">
@@ -659,13 +659,13 @@
             </div>
         </div>
 
-        <!-- ========== CONTEÚDOS ========== -->
+        <!-- CONTEÚDOS -->
         <div id="page-conteudos" class="page">
             <h2 style="margin-bottom:20px;"><i class="fas fa-book-open" style="color:var(--green);"></i> Matriz ENEM - Checklist</h2>
             <div class="checklist-group" id="checklistContainer"></div>
         </div>
 
-        <!-- ========== REVISÕES ========== -->
+        <!-- REVISÕES -->
         <div id="page-revisoes" class="page">
             <h2 style="margin-bottom:20px;"><i class="fas fa-sync-alt" style="color:var(--yellow);"></i> Sistema de Revisões</h2>
             <div class="row">
@@ -676,7 +676,7 @@
             </div>
         </div>
 
-        <!-- ========== REDAÇÃO (TEMAS) ========== -->
+        <!-- REDAÇÃO (TEMAS) -->
         <div id="page-redacao" class="page">
             <h2 style="margin-bottom:20px;"><i class="fas fa-pen-fancy" style="color:var(--pink);"></i> Plano de Redação</h2>
             <div class="row">
